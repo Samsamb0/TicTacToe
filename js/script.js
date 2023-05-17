@@ -4,7 +4,7 @@ let gameOver;
 let gameboard;
 let previousPlayerIndex;
 const Gameboard = (() => {
-  gameboard = ["", "x", "", "", "", "", "o", "", ""];
+  gameboard = ["", "", "", "", "", "", "", "", ""];
 
   const render = () => {
     let boardHtml = document.querySelector("#gameboard");
